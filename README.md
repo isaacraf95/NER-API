@@ -23,13 +23,13 @@ La aplicación estará disponible en http://localhost:5000/ner. Puedes utilizar 
 
 ### Usando Docker :whale:
 1. **Construir la Imagen Docker**:
-   ```bash
-   docker build -t ner-api .
-   ```
+```bash
+docker build -t ner-api .
+```
 2. **Ejecutar la Imagen**:
-   ```bash
-   docker run -p 5000:5000 ner-api
-   ```
+```bash
+docker run -p 5000:5000 ner-api
+```
 La API estará disponible en `http://localhost:5000/ner`. Puedes utilizar un cliente HTTP como `curl` o Postman para enviar peticiones POST.
 ## Ejemplo de Petición :mailbox_with_mail:
 Puedes probar la API con la siguiente petición:
