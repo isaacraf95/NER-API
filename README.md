@@ -11,7 +11,11 @@ Si prefieres no usar Docker, puedes instalar las dependencias en un entorno virt
 ```bash
 pip install -r requirements.txt
 ```
-Ejecutar la Aplicación:
+2. Descargar el modelo NER una vez instalado spacy:
+```bash
+spacy download es_core_news_sm
+```
+3. Ejecutar la Aplicación:
 ```bash
 python app.py
 ```
